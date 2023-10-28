@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg " style="    background-color: #002147;;
+    margin: 0px 0;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">University</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active " style="color: #fff;" aria-current="page" href="Admission.html">
+                            ADMISSIONS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="research.html">
+                            RESEARCH</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            About
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="about.html">ORGANISATION</a></li>
+                            <li><a class="dropdown-item" href="Vice-Chancellor.html">VICE-CHANCELLOR</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="FACTS AND FIGURES.html">FACTS AND FIGURES</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="news-event.html">
+                            News & Event</a>
+                    </li>
+                </ul>
+
+
+
+                <li class="nav-item dropdown" style="text-decoration: none;
+                list-style: none;
+                right: 80px;">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        REGISTER
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Signin</a></li>
+                        <li><a class="dropdown-item" href="#">Log in</a></li>
+
+                    </ul>
+                </li>
+
+
+                <form class="d-flex" role="search" onsubmit="return performGoogleSearch()">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+                        id="searchInput">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+
+                <!-- <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="coln">
+        <div class="all-con">
+            <div class="resc">
+                <h1>Research</h1>
+                <p>Oxford University ranked number 1 in the Times Higher Education (THE) World University Rankings for
+                    the
+                    eighth year running, and at the heart of this success is our ground-breaking research and
+                    innovation.
+                </p>
+            </div>
+
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <iframe width="1349" height="480" src="https://www.youtube.com/embed/ogkc1FmfiuI"
+                            title="Brain and mental health campaign 1600x550 carousel banner" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="REF - banner.small_.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <iframe width="1349" height="464"
+                            src="https://www.youtube.com/embed/MJNz9_M3kFg?list=TLGGtIsZ1B5YN-gyNzEwMjAyMw"
+                            title="Innovation landing page 1600x550" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+
+
+
+
+
+            <div class="lio">
+                <h1> Brain and Mental Health</h1>
+                <p> How Oxford experts are exploring the most complex object in the known universe <br>
+
+
+                    Oxford is world-famous for research excellence and home to some of the most talented people from
+                    across the globe. Our work helps the lives of millions, solving real-world problems through a
+                    huge
+                    network of partnerships and collaborations. The breadth and interdisciplinary nature of our
+                    research
+                    sparks imaginative and inventive insights and solutions.</p>
+            </div>
+
+
+
+            <div class="amil">
+                <div class="mant">
+
+                    <div class="conk2">
+                        <img src="" alt="">
+                        <div class="voi">
+                            <h1>LATEST RESEARCH NEWS</h1>
+                            <p>First digital atlas of human fetal brain development published</p>
+                        </div>
+                    </div>
+
+                    <div class="conk2">
+                        <!-- <img src="bcar-ug-written-work.png" alt="" style="top: 85%;"> -->
+                        <div class="voi">
+
+                            <p>New study shows how bumblebees make decisions ‘on the fly’ to maximise energy returns</p>
+                        </div>
+                    </div>
+
+                    <div class="conk2">
+                        <!-- <img src="Astrophoria VC Orientation Week.jpg" alt="" style="top: 65%;"> -->
+                        <div class="voi">
+
+                            <p>Nico Rosberg meets Oxford students sponsored by Rosberg Philanthropies to research
+                                climate
+                                change solutions</p>
+                        </div>
+                    </div>
+                    <div class="conk2">
+                        <!-- <img src="Astrophoria VC Orientation Week.jpg" alt="" style="top: 65%;"> -->
+                        <div class="voi">
+
+                            <p>Nico Rosberg meets Oxford students sponsored by Rosberg Philanthropies to research
+                                climate
+                                change solutions</p>
+                        </div>
+                    </div>
+                    <div class="conk2">
+                        <!-- <img src="Astrophoria VC Orientation Week.jpg" alt="" style="top: 65%;"> -->
+                        <div class="voi">
+
+                            <p>Nico Rosberg meets Oxford students sponsored by Rosberg Philanthropies to research
+                                climate
+                                change solutions</p>
+                        </div>
+                    </div>
+                    <div class="conk2">
+                        <!-- <img src="Astrophoria VC Orientation Week.jpg" alt="" style="top: 65%;"> -->
+                        <div class="voi">
+
+                            <p>Nico Rosberg meets Oxford students sponsored by Rosberg Philanthropies to research
+                                climate
+                                change solutions</p>
+                        </div>
+                    </div>
+                    <div class="conk2">
+                        <!-- <img src="Astrophoria VC Orientation Week.jpg" alt="" style="top: 65%;"> -->
+                        <div class="voi">
+
+                            <p>Nico Rosberg meets Oxford students sponsored by Rosberg Philanthropies to research
+                                climate
+                                change solutions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mkio">
+                    <div class="cardo">
+                        <img src="https://www.ox.ac.uk/sites/files/oxford/styles/ow_listing/s3/field/field_image_main/ox%20pic%20big%281%29%20%3D%20Tim%20right.jpg?itok=5lSmRtQt"
+                            alt="">
+
+                        <div class="conk">
+                            <h1>Oxford profiles</h1>
+                            <p>Meet some of the talented people behind Oxford’s world-class research. Pushing
+                                forward
+                                the boundaries of knowledge, their work solves real world problems and creates a
+                                positive impact on our societies, economies and health.</p>
+                        </div> <br>
+
+                        <img src="https://www.ox.ac.uk/sites/files/oxford/styles/ow_listing/s3/startedinoxford_si.jpg?itok=djzWwP9G"
+                            alt="">
+
+                        <div class="conk">
+                            <h1>Started in Oxford</h1>
+                            <p>The Oxford region is one of the most innovative in the UK, with new enterprises
+                                continuing to
+                                join a growing band of spinouts, startups and entrepreneurs.</p>
+                        </div> <br>
+
+                        <img src="https://www.ox.ac.uk/sites/files/oxford/styles/ow_listing/s3/field/field_image_highlight/1.1%20Consultations%20and%20inquiries%20-%20Photo%20by%20Helloquence%20on%20Unsplash.jpg?itok=3rtVpsVL"
+                            alt="">
+
+                        <div class="conk">
+                            <h1>Oxford's experience in Policy Engagement</h1>
+                            <p>Oxford’s researchers and academics have a wealth of experience in engaging with
+                                policymakers
+                                and contributing to policy impact.</p>
+                        </div>
+
+                    </div>
+                    <div class="cardo">
+                        <img src="https://www.ox.ac.uk/sites/files/oxford/styles/ow_large_feature/s3/field/field_image_main/pixabay.com_9.jpg?itok=66h1j256"
+                            alt="">
+
+                        <div class="conk">
+                            <h1>Engaged research at Oxford</h1>
+                            <p>Have a look at some of the short films below for excellent examples of Public Engagement
+                                with
+                                Research (PER) activities that take place at Oxford which Inform/Inspire, Consult and
+                                Collaborate with the public.</p>
+                        </div> <br>
+
+                        <img src="https://www.ox.ac.uk/sites/files/oxford/styles/ow_listing/s3/media_wysiwyg/Collaboration%20values_simplified%20rw_0.png?itok=cBNmKJlV"
+                            alt="">
+
+                        <div class="conk">
+                            <h1>Research Collaboration Values</h1>
+                            <p>Collaboration with partners is fundamental to our research endeavour, to our pursuit of
+                                new
+                                knowledge, and to changing the world for the better. </p>
+                        </div> <br>
+
+                        <img src="https://www.ox.ac.uk/sites/files/oxford/styles/ow_listing/s3/field/field_image_highlight/VksOZtP.jpg?itok=_evlWw_8"
+                            alt="">
+
+                        <div class="conk">
+                            <h1>Oxford Impact Films</h1>
+                            <p>Watch our Research Impact films: 3-4 minute videos of how our research has benefitted
+                                policy,
+                                health, business and culture. </p>
+                        </div> <br>
+
+                    </div>
+                    <div class="cardo">
+                        <img src="https://www.ox.ac.uk/sites/files/oxford/styles/ow_content_medium/s3/field/field_image_listing/University%20of%20Oxford%20Student%20Ambassador%20Litter%20Picking%20Kayak%20Project_0.jpeg?itok=-5fSULs_"
+                            alt="">
+
+                        <div class="conk">
+                            <h1>Oxford leads Nature Positive Universities Alliance to reverse biodiversity decline</h1>
+                            <p>The Nature Positive Universities Alliance brings higher education institutions together
+                                to
+                                use their unique power and influence as drivers of positive change.</p>
+                        </div> <br>
+
+                        <img src="https://www.ox.ac.uk/sites/files/oxford/styles/ow_content_medium/s3/media_wysiwyg/Screenshot%202023-10-04%20at%2008.46.13.png?itok=-zxmNScX"
+                            alt="">
+
+                        <div class="conk">
+                            <h1>Engaging communities in wildlife conservation through storybooks</h1>
+                            <p>IMPACT CASE STUDY
+                                A series of children's books, created by Lion Landscapes (part of Oxford’s Wildlife
+                                Conservation Research Unit) are helping to put communities in Africa at the heart of
+                                conservation efforts – and illustrating how wildlife, people and healthy ecosystems can
+                                co-exist.</p>
+                        </div> <br>
+
+
+                        <img src="https://www.ox.ac.uk/sites/files/oxford/styles/ow_content_medium/s3/field/field_image_listing/brain%20mri%20300.jpg?itok=R-ORmH_A"
+                            alt="">
+
+                        <div class="conk">
+                            <h1>Routine brain scanning may improve clinical care for people with psychosis</h1>
+                            <p>Researchers led by Dr Graham Blackman and Professor Philip McGuire at the University of
+                                Oxford's Department of Psychiatry reviewed t</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <br><br><br><br>
+
+
+
+
+        <div class="footer">
+            <!-- Footer -->
+            <footer class="text-center text-lg-start bg-white text-muted">
+                <!-- Section: Social media -->
+                <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                    <!-- Left -->
+                    <div class="me-5 d-none d-lg-block">
+                        <span>Get connected with us on social networks:</span>
+                    </div>
+                    <!-- Left -->
+
+                    <!-- Right -->
+                    <div>
+                        <a href="" class="me-4 link-secondary">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="" class="me-4 link-secondary">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="" class="me-4 link-secondary">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="" class="me-4 link-secondary">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="" class="me-4 link-secondary">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="" class="me-4 link-secondary">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <!-- Right -->
+                </section>
+                <!-- Section: Social media -->
+
+                <!-- Section: Links  -->
+                <section class="">
+                    <div class="container text-center text-md-start mt-5">
+                        <!-- Grid row -->
+                        <div class="row mt-3">
+                            <!-- Grid column -->
+                            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                                <!-- Content -->
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    <i class="fas fa-gem me-3 text-secondary"></i>Company name
+                                </h6>
+                                <p>
+                                    Here you can use rows and columns to organize your footer content.
+                                    Lorem ipsum
+                                    dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    Products
+                                </h6>
+                                <p>
+                                    <a href="#!" class="text-reset">Angular</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset">React</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset">Vue</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset">Laravel</a>
+                                </p>
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    Useful links
+                                </h6>
+                                <p>
+                                    <a href="#!" class="text-reset">Pricing</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset">Settings</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset">Orders</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset">Help</a>
+                                </p>
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                                <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012,
+                                    US</p>
+                                <p>
+                                    <i class="fas fa-envelope me-3 text-secondary"></i>
+                                    info@example.com
+                                </p>
+                                <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+                                <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+                            </div>
+                            <!-- Grid column -->
+                        </div>
+                        <!-- Grid row -->
+                    </div>
+                </section>
+                <!-- Section: Links  -->
+
+                <!-- Copyright -->
+                <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+                    © 2021 Copyright:
+                    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                </div>
+                <!-- Copyright -->
+            </footer>
+            <!-- Footer -->
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+
+
+
+
+        </script>
+    <script src="play.js"></script>
+</body>
+
+</html>

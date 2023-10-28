@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,100&family=Mukta&family=Raleway:wght@400;500&family=Roboto:ital,wght@0,500;1,300;1,400&family=Ubuntu:ital,wght@1,300;1,400&display=swap');
+
+
+/** {
+    margin: 0;
+    padding: 0;
+}*/
+
+/*.carousel-item {
+    height: 748px;
+}*/
+
+
+body {
+    overflow: scroll;
+    font-family: 'Mukta', sans-serif;
+}
+
+.row {
+    padding: 0 128px;
+}
+
+.natu {
+    position: absolute;
+    bottom: 56px;
+    left: 90px;
+    font-size: xxx-large;
+    color: #fff;
+    font-weight: bold;
+}
+
+.natu p {
+    font-size: small;
+}
+
+.card {
+
+    -webkit-column-break-inside: avoid;
+}
+
+.contanier {
+    display: flex;
+    justify-content: center;
+    padding: 188px 0;
+}
+
+.resp {
+    background: linear-gradient(45deg, black, #20292d);
+}
+
+.navbar-brand {
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-item,
+.nav-link,
+.active,
+.dropdown {
+    color: #fff;
+}
+
+.nav-item,
+.nav-link a {
+    color: #fff;
+}
+
+.navbar-nav .nav-link.show {
+    color: blue;
+}
+
+.bolto {
+
+    display: flex;
+    padding: 34px 18px;
+    background: linear-gradient(45deg, black, #20292d);
+    justify-content: center;
+
+}
+
+.bolto,
+.card {
+    margin: 0 13px;
+}
+
+.footer {
+    background: linear-gradient(45deg, black, #20292d);
+
+}
+
+.adv {
+    width: 100%;
+}
+
+.adv img {
+    width: 100%;
+    height: 686px;
+}
+
+.mji {
+    width: 304px;
+    height: 200px;
+    /*background: aqua;*/
+    margin: 0 19px;
+    position: relative;
+    left: 143px;
+}
+
+.rot1 {
+    display: flex;
+}
+
+.mji1 {
+    margin: 11px 17px;
+    /* background: aqua;*/
+}
+
+.lko {
+
+    width: 312px;
+    position: relative;
+    top: -210px;
+}
+
+
+.rot1 {
+    justify-content: center;
+}
+
+.tou {
+    padding: 50px 0;
+}
+
+.card-body34 {
+    position: relative;
+    top: -89px;
+    background-color: #f3f1ee;
+    width: 204px;
+    height: 89px;
+}
+
+.opy {
+
+    position: relative;
+    bottom: 203px;
+    color: #fff;
+    left: 22px;
+
+}
+
+.opy h1 {
+
+    font-weight: bold;
+    font-size: xxx-large;
+
+}
+
+.opy p {
+
+    font-size: x-large;
+    font-weight: bold;
+
+}
+
+.shadow h1 {
+
+    font-size: xxx-large;
+    font-family: system-ui;
+    font-weight: bold;
+}
+
+.lio {
+    color: black;
+    background: #fff;
+    width: 677px;
+    position: relative;
+    bottom: 19px;
+    left: 0px;
+    padding: 0 13px;
+}
+
+.amil {
+    display: flex;
+    padding: 0 11px;
+    /* position: relative;
+    top: 408px; */
+}
+
+.cardo {
+    width: 25%;
+    margin: 0 27px;
+}
+
+.cardo img {
+    width: 100%;
+}
+
+.mant {
+    width: 25%;
+}
+
+.mkio {
+    width: 75%;
+    display: flex;
+}
+
+.conk2 {
+    /* outline: outset; */
+    border-bottom-style: solid;
+}
+
+.conk2 img {
+    width: 109px;
+    position: absolute;
+    left: 245px;
+    top: 45%;
+    padding: 0px 11px 11px;
+}
+
+.voi {
+    background: 1px solid #363634;
+}
+
+.voi h1 {
+    text-decoration-line: underline;
+    font-size: x-large;
+}
+
+.voi p {
+    width: 245px;
+
+}
+
+.conk h1 {
+    width: 289px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.conk p {
+    font-size: 15px;
+}
+
+.conk2 {
+    background: #676565;
+    color: #fff;
+}
+
+.lio45 {
+
+    color: black;
+    background: #fff;
+    /* width: 677px; */
+    position: relative;
+    bottom: 126px;
+    left: 152px;
+    padding: 0 13px;
+    width: 84%;
+}
+
+.xingar {
+    display: flex;
+    display: flex;
+    width: 100%;
+}
+
+.xingar p {
+    width: 1000px;
+}
+
+.conk22 {
+    width: 200px;
+}
+
+.conk22 h1 {
+    font-size: x-large;
+}
+
+.voi2 p {
+    width: 245px;
+}
+
+.conk22 {
+    width: 100%;
+    background: #676565;
+    color: #fff;
+}
+
+.voi22 h1 {
+    padding: 0 16px;
+}
+
+.voi22 p {
+    padding: 0 10px;
+}
+
+.d-flex {
+    background-color: #002147;
+    color: #fff;
+}
+
+section {
+    background-color: #002147;
+    color: #fff;
+}
+
+.footer1 {
+    background-color: #002147;
+}
+
+.coln {
+    overflow: hidden;
+}
